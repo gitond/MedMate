@@ -14,7 +14,7 @@ import CalendarScreen from "./screens/CalendarScreen";
 import CalendarScreen3DotNavigat from "./screens/CalendarScreen3DotNavigat";
 
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { View, Text, Pressable, TouchableOpacity } from "react-native";
+import { View, Text, Pressable, TouchableOpacity, Image } from "react-native";
 
 const App = () => {
   const [hideSplashScreen, setHideSplashScreen] = React.useState(true);
